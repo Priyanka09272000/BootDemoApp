@@ -24,6 +24,10 @@ public class Person {
         System.out.println("Java test program");
     }
 
+    public static void print2()
+    {
+        System.out.println("Java test program 2");
+    }
     public Integer getPersonId() {
         return personId;
     }
