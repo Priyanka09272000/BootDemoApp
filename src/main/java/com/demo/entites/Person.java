@@ -1,7 +1,7 @@
 package com.demo.entites;
 import javax.persistence.Entity;
 import javax.persistence.Id;
-
+import  java.lang.*;
 @Entity
 public class Person {
     @Id
@@ -17,6 +17,11 @@ public class Person {
     }
 
     public Person() {
+    }
+
+    public static void print()
+    {
+        System.out.println("Java test program");
     }
 
     public Integer getPersonId() {
@@ -42,4 +47,5 @@ public class Person {
     public void setPersonCity(String personCity) {
         this.personCity = personCity;
     }
+
 }
