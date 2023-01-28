@@ -29,6 +29,7 @@ public class Person {
         System.out.println("Java test program 2");
     }
     public static void print3() { System.out.println("Java test program 3");}
+    public static void print4() {System.out.println("Java test program 4"):}
     public Integer getPersonId() {
         return personId;
     }
